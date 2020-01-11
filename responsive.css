@@ -1,0 +1,131 @@
+@media all and (max-width:1025px){
+    .about-wrapper{
+        padding: 10%;
+    }
+    .type-wrapper{
+        padding: 10%;
+    }
+    .shop-wrapper{
+        padding: 10%;
+    }
+    .causes img{
+        height: 400px;
+        width: 50%;
+    }
+    .imgs{
+        padding-top: 25%;
+    }
+    .t h3{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-wrapper{
+        padding: 10% 5%;
+    }
+    .type-wrapper{
+        padding: 10% 5%;
+    }
+    .shop-wrapper{
+        padding: 10% 5%;
+        background-position: top right;
+    }
+    .message{
+        line-height: 150%;
+    }
+    .causes p{
+        line-height: 150%;
+    }
+    .t p{
+        line-height: 150%;
+    }
+    .shop-wrapper p{
+        line-height: 150%;
+    }
+}
+@media screen and (max-width: 425px){
+
+    .header-right i{
+        display: block;
+        text-align: right;
+        font-size: 2.5em;
+    }
+    .header-title h1{
+        font-size: 3em;
+        padding-top: 5%;
+    }
+    .header-list{
+        display: none;
+    }
+    .about-wrapper{
+        padding: 15% 2%;
+    }
+    .type-wrapper{
+        padding: 15% 2%;
+    }
+    .shop-wrapper{
+        padding: 15% 2%;
+        background-position: top right;
+    }
+    .top-wrapper h1{
+        font-size: 12em;
+    }
+    .about-wrapper h2{
+        font-size: 6em;
+    }
+    .type-wrapper h2{
+        font-size: 6em;
+    }
+    .shop-wrapper h2{
+        font-size: 6em;
+    }
+    .about-title h3{
+        font-size: 2em;
+    }
+    .causes h3{
+        font-size: 2em;
+    }
+    .t h3{
+        font-size: 2em;
+    }
+    .items h3{
+        font-size: 2em;
+    }
+    .dis-cause{
+        flex-direction: column-reverse;
+    }
+    .causes p{
+        width: 100%;
+        padding-top: 10%;
+    }
+    .causes img{
+        width: 100%;
+        padding-top: 5%;
+    }
+    .t{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .imgs{
+        display: none;
+    }
+    .item1{
+        flex-direction: column;
+    }
+    .item1 img{
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+    }
+    .item1 p{
+        width: 100%;
+        height: auto;
+        padding-top: 15%;
+    }
+}

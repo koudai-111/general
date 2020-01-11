@@ -1,0 +1,277 @@
+*{
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 1em;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(5, 5, 5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: linear-gradient(to bottom, #1f1e1e, rgb(80, 79, 79));
+}
+.header-title i{
+    font-size: 0.7em;
+}
+.header-title h1{
+    color: #fff;
+    font-family: "emmeline";
+    font-size: 4em;
+}
+.header-left{
+    width: 50%;
+    height: auto;
+}
+.header-right{
+    width: 50%;
+    height: auto;
+}
+.header-right i{
+    display: none;
+}
+.header-list ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+}
+.header-list li{
+    list-style: none;
+    padding-right: 30px;
+}
+.header-list a{
+    color: #fff;
+}
+.top-wrapper{
+    background-image: url(./tattoo.img/_.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.top-wrapper::after{
+    content: '';
+    background: radial-gradient(rgba(27, 27, 27, 0.438),rgb(32, 38, 44));
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+@font-face{
+    font-family: "Emmeline";
+    src: url('..font/Emmeline-Regular.otf');
+}
+.top-wrapper h1{
+    color: #fff;
+    font-size: 20em;
+    font-family: "Emmeline";
+    text-align: center;
+    line-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.about-wrapper{
+    height: auto;
+    background: radial-gradient(rgba(27, 27, 27, 0.438),rgb(32, 38, 44));
+    padding: 10% 15%;
+}
+.more{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 5%;
+}
+.more a{
+    color: black;
+    text-align: right;
+    font-size: 2em;
+}
+.about-wrapper h2{
+    font-size: 10em;
+    font-family: "Emmeline";
+    border-bottom: 2px solid #383636;
+    margin-bottom: 6vh;
+}
+.about-title{
+    padding: 0 5%;
+    
+}
+.about-title h3{
+    font-weight: bolder;
+    padding-bottom: 2vh;
+    font-size: 2.5em;
+}
+.message{
+    line-height: 200%;
+    padding: 0 5%;
+}
+.causes h3{
+    font-size: 2.5em;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-weight: bolder;
+}
+.dis-cause{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10%;
+}
+.causes{
+    padding: 0 5%;
+    padding-top: 10%;
+}
+.causes p{
+    line-height: 200%;
+    width: 50%;
+    padding: 0 2.5%;
+}
+.causes img{
+    padding: 0 2.5%;
+    width: 50%;
+}
+.type-wrapper{
+    height: auto;
+    padding: 0 15%;
+    padding-top: 10%;
+    background: linear-gradient(to bottom, rgb(32, 38, 44), rgb(255, 255, 255));
+}
+.type-wrapper h2{
+    font-family: "Emmeline";
+    font-size: 10em;
+    margin-bottom: 6vh;
+    border-bottom: 2px solid #575454;
+}
+.types{
+    padding: 0 5%;
+}
+.t{
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 30%;
+}
+.t p{
+    line-height: 200%;
+}
+.left{
+    width: 50%;
+    padding: 0 2.5%;
+}
+.right{
+    width: 50%;
+    padding: 0 2.5%;
+}
+.t h3{
+    font-size: 2.5em;
+    padding-bottom: 3vh;
+    font-weight: bolder;
+}
+.t img{
+    width: 100%;
+    padding-top: 10%;
+}
+.imgs{
+    padding-top: 10%;
+}
+.shop-wrapper{
+    height: auto;
+    padding: 0 15%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    background-image: url(./tattoo.img/Designer\ Clothes\,\ Shoes\ &\ Bags\ for\ Women\ _\ SSENSE.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+
+}
+.shop-title{
+    padding: 0 5%;
+}
+.items{
+    padding: 0 5%;
+    padding-bottom: 10%;
+}
+.shop-wrapper h2{
+    color: black;
+    font-family: "Emmeline";
+    font-size: 10em;
+    border-bottom: 2px solid #383636;
+    margin-bottom: 6vh;
+}
+.shop-wrapper p{
+    color: black;
+    line-height: 200%;
+}
+.items h3{
+    color: black;
+    font-size: 2.5em;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-weight: bolder;
+}
+.item1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.item1 img{
+    width: 40%;
+    height: 50%;
+    padding: 0 2.5%;
+}
+.item1 p{
+    width: 60%;
+    height: auto;
+    padding: 0 2.5%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url(./tattoo.img/hannnya.jpeg);
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+footer h1{
+    font-family: "Emmeline";
+    font-size: 7em;
+    padding: 5%;
+    text-align: center;
+}
+footer ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 20%;
+}
+footer li{
+    list-style: none;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5%;
+}
+footer a{
+    color: #fff;
+}
